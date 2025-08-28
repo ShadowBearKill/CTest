@@ -2,6 +2,7 @@
 #include <vector>
 #include <iostream>
 #include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
@@ -48,6 +49,10 @@ int main() {
     // 6. cin和getline混用
     cin >> a;
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+    // 7. 多组测试数据处理
+    int T; cin >> T;
+	while(T --) solve();
 
     return 0;
 }
